@@ -1,0 +1,11 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "scanners/*"
+
+allowBuilds:
+  unrs-resolver: false
+  sharp: false
+  esbuild: false
+  '@prisma/engines': false
+  prisma: false
